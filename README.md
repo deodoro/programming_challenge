@@ -13,11 +13,10 @@ Your task is to process the dataset using Python, extract insights, and create a
 
 #### **1. Dataset Description**  
 You are provided with a single spreadsheet (`NSDP_Delays.xlsx`) that contains the following columns:
-- `Country`: The name of the country.
+- `Country`: The ISO-3 code of the country.
 - `Year`: The reporting year.
 - `Type`: Either `Periodicity` or `Timeliness`.
 - `Delay (days)`: The number of days by which the country delayed NSDP dissemination.
-- `Region`: The region to which the country belongs.
 - `Last Update`: The timestamp of the last update to the record.
 
 #### **2. Data Analysis Requirements**  
@@ -62,7 +61,7 @@ Once the data is processed, create an interactive report using Power BI to prese
 5. **Filters and Slicers**  
    - Include slicers for `Region`, `Year`, and `Country` to allow users to explore the data interactively.
 
-Please note that the sample spreadsheet contains only ISO country codes. Reports are expected to display the full country and region names properly. You may use external resources to map the ISO codes to country names, such as *https://restcountries.com/v3.1/alpha/{ISO3_CODE}* or *https://api.worldbank.org/v2/country/{ISO3_CODE}?format=json*, or any other method you prefer.
+Please note that the sample spreadsheet contains only ISO country codes. Reports are expected to display the full country and region names properly. You may use external resources to map the ISO codes to country and region names, such as *https://restcountries.com/v3.1/alpha/{ISO3_CODE}* or *https://api.worldbank.org/v2/country/{ISO3_CODE}?format=json*, or any other method you prefer.
 
 #### **4. Submission Steps**
 
