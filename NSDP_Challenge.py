@@ -18,6 +18,8 @@ nsdp_filtered =  type_df[(type_df['Delay (days)'] >= 0) & (type_df['Delay (days)
 
 print(nsdp_filtered.head())
 
+nsdp_filtered.to_csv('nsdp_filtered.csv', index=False)
+
 #2. Compute Aggregates
 
 #Calculating mean of delay per year for each county
