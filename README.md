@@ -1,7 +1,7 @@
 # NSDP Delay Analysis Challenge
 
 ## Objective
-Welcome to the NSDP Delay Analysis Challenge. This project involves analyzing delays in National Summary Data Page (NSDP) dissemination across various countries to identify patterns, trends, and outliers in the data. The end goal is to visually present these findings using Power BI, enhancing understanding of which countries and regions have shown improvement or regression in timeliness.
+Welcome to the NSDP Delay Analysis Challenge Implementations. This project involves analyzing delays in National Summary Data Page (NSDP) dissemination across various countries to identify patterns, trends, and outliers in the data. The end goal is a visual presentation of these findings using Power BI, enhancing understanding of which countries and regions have shown improvement or regression in timeliness.
 
 ## Repository Contents
 - **NSDP_DE_Challenge.py**: Python script for data processing and analysis.
@@ -35,7 +35,7 @@ Welcome to the NSDP Delay Analysis Challenge. This project involves analyzing de
   python NSDP_DE_Challenge.py
 
 ## Analyzing Data with Power BI Report
-After running the Python script and generating the CSV files, load these into the Power BI report to start your analysis. The Power BI report, `NSDP_Analysis.pbix`, includes several interactive visualizations that allow for a dynamic exploration of the data.
+After running the Python script and generating the CSV files, results are loaded into the Power BI report to start analysis. The Power BI report, `NSDP_Analysis.pbix`, includes several interactive visualizations that allow for a dynamic exploration of the data.
 
 ### Features of the Power BI Report
 1. **Yearly Delay Trends**: This line chart displays the average delay for each country across different years, helping to visualize trends and changes over time.
@@ -52,4 +52,4 @@ After running the Python script and generating the CSV files, load these into th
 - **Drill Down/Up**: Some charts support drilling down for more detailed data exploration or drilling up for a broader overview. This feature is especially useful in understanding the granular details of delay data or in gaining a high-level perspective.
 
 ## Conclusion
-This repository and the accompanying Power BI report provide comprehensive tools for analyzing NSDP dissemination delays. Through detailed data processing and interactive visualizations, users can gain meaningful insights into the factors influencing reporting timeliness.
+This repository and the Power BI report provide comprehensive features for analyzing NSDP dissemination delays. Through detailed data processing and interactive visualizations, users can gain meaningful insights into the factors influencing reporting timeliness.
