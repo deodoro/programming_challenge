@@ -33,3 +33,23 @@ Welcome to the NSDP Delay Analysis Challenge. This project involves analyzing de
 - Execute the script:
   ```bash
   python NSDP_DE_Challenge.py
+
+## Analyzing Data with Power BI Report
+After running the Python script and generating the CSV files, load these into the Power BI report to start your analysis. The Power BI report, `NSDP_Analysis.pbix`, includes several interactive visualizations that allow for a dynamic exploration of the data.
+
+### Features of the Power BI Report
+1. **Yearly Delay Trends**: This line chart displays the average delay for each country across different years, helping to visualize trends and changes over time.
+2. **Regional Performance Comparison**: A clustered bar chart shows the average delay by region, enabling comparisons across different regions and identification of regional trends.
+3. **Top 5 Countries with Highest Delays**: A bar chart or table that lists the countries experiencing the highest average delays, drawing attention to areas that may need policy or process improvements.
+4. **Outlier Analysis**: A scatter plot or highlighted table indicates outlier countries with delays significantly different from the norm, providing insights into extreme cases.
+
+### Using the Power BI Report
+- **Interactive Slicers**: Utilize the slicers provided for `Year`, `Country`, and `Region` to filter the data across different visualizations. These slicers help refine your view to specific subsets of data, enhancing your ability to conduct targeted analysis.
+- **Dynamic Exploration**: Select different years to see how delay trends have shifted over time. Choose specific countries or regions to focus your analysis and view detailed performance. This dynamic interactivity allows stakeholders to pinpoint issues and track improvements or declines in timeliness across the dataset.
+
+### Navigating the Visuals
+- **Click and Explore**: Each visualization is interactive. Clicking on a country in any chart will filter other visuals to show relevant data for that country. Similarly, selecting a region or a year adjusts all charts to reflect data corresponding to your selection.
+- **Drill Down/Up**: Some charts support drilling down for more detailed data exploration or drilling up for a broader overview. This feature is especially useful in understanding the granular details of delay data or in gaining a high-level perspective.
+
+## Conclusion
+This repository and the accompanying Power BI report provide comprehensive tools for analyzing NSDP dissemination delays. Through detailed data processing and interactive visualizations, users can gain meaningful insights into the factors influencing reporting timeliness.
