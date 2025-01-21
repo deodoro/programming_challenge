@@ -1,0 +1,11 @@
+ISO3 Code	Year	Type	Delay (days)	Last Update	Region	Z-Score
+JPN	2016	Timeliness	1	23:38.7	Asia	-1.78155868
+ARG	2019	Timeliness	1	23:38.7	South America	-1.78155868
+ARG	2020	Timeliness	60	23:38.7	South America	1.594586509
+CAN	2019	Timeliness	60	23:38.7	North America	1.594586509
+IND	2017	Timeliness	1	23:38.7	Asia	-1.78155868
+ARG	2018	Timeliness	0	23:38.7	South America	-1.83878148
+BRA	2019	Timeliness	1	23:38.7	South America	-1.78155868
+JPN	2020	Timeliness	60	23:38.7	Asia	1.594586509
+MEX	2017	Timeliness	0	23:38.7	North America	-1.83878148
+
